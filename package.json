@@ -1,0 +1,15 @@
+{
+  "name": "sharepryaniks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@browserless/aws-lambda-chrome": "^1.3.0",
+    "puppeteer": "^1.6.0"
+  }
+}
