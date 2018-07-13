@@ -1,0 +1,15 @@
+{
+  "name": "sharepryaniks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "zip": "rm -rf nodu_modules && PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true npm ci && zip -9 -v -r sharePryaniks.zip node_modules index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@browserless/aws-lambda-chrome": "^1.3.0",
+    "puppeteer": "^1.7.0"
+  }
+}
